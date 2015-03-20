@@ -251,13 +251,15 @@ div.upper_menu a:hover
 }
 
 .info-content {
-    padding: 50px;
+    padding: 0 50px;
 }
 
 .imaged{
     background: url("../img/blank.png") no-repeat;
     background-size: contain;
+    position: relative;
     height: 200px;
+    left: 325px;
 }
 
 .main_program_line
@@ -267,15 +269,7 @@ div.upper_menu a:hover
     position: relative;
 }
 
-.line-color-red {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.line-color-yellow {
-    background-color: rgba(0,0,0,0.5);
-}
-
-.line-color-blue {
+.line-color-black {
     background-color: rgba(0,0,0,0.5);
 }
 
